@@ -1,0 +1,72 @@
+body{
+  background-image: url(../back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.table{ 
+    margin-top:10px;
+    margin-left: 700px;
+    margin-right:200px;
+    text-align: center;
+}
+.rightside{
+    margin-left: -600px;    }
+
+.text{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: 5px;
+
+    color:black;
+}
+.partone{
+    background-color:white;
+    width:570px;
+    height:800px;
+    font-size: 20px;
+    border: 3px solid whitesmoke;
+}
+.parttwo{
+    background-color:white;
+    color:black;
+    font-size: 25px;
+    padding-top:20px;
+    padding-bottom: 10px;
+    width:565px;
+    height: 50px;
+    border: 3px solid whitesmoke;
+}
+.myinput{
+    width:460px;
+    height: 50px;
+    font-size: 20px;
+    color:grey;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    border:2px solid whitesmoke;
+    margin-bottom: 30px;
+}
+.signbutton{
+    width:460px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color:#7fe4d8;
+    color: #FBFDFF;
+    font-weight: bold;
+    border:1px solid white;
+}
+.leftside{
+    background-color:black;
+    opacity: 0.7;
+    width:700px;
+    height:500px;
+    font-size: 50px;
+    border: 3px solid whitesmoke;
+    margin-left: 220px;
+    margin-top: -750px;
+}
+.lefttext{
+    color: white;
+}
