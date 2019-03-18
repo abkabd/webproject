@@ -24,7 +24,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "themes/superhero.bootstrap.min.css"
+              "themes/sandstone.bootstrap.min.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true
