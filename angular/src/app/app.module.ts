@@ -7,6 +7,7 @@ import { MainComponent } from './components/main/main.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { AboutComponent } from './components/about/about.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     MainComponent,
     SignUpComponent,
     AboutComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
