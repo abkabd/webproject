@@ -11,12 +11,16 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
+import { SignstudentComponent } from './components/signstudent/signstudent.component';
+import { SigncompanyComponent } from './components/signcompany/signcompany.component';
 
 const appRoutes: Routes = [
   {path: '', component: MainComponent},
   {path: 'about', component: AboutComponent},
   {path: 'signUp', component: SignUpComponent},
   {path: 'signIn', component: SignInComponent},
+  {path: 'signUpStudent', component: SignstudentComponent},
+  {path: 'signUpCompany', component: SigncompanyComponent},
   {path: '**', component: NotFoundComponent},
 ]
 
@@ -29,7 +33,9 @@ const appRoutes: Routes = [
     NotFoundComponent,
     HeaderComponent,
     FooterComponent,
-    SignInComponent
+    SignInComponent,
+    SignstudentComponent,
+    SigncompanyComponent
   ],
   imports: [
     BrowserModule,
