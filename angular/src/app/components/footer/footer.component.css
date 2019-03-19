@@ -3,13 +3,14 @@ footer{
     left: 0%;
     width: 100%;
     box-sizing: border-box;
+    text-align: center;
     min-width: 1300px;
     height: auto;
     display: block;
     background: rgb(22, 22, 22);
     background-color: #141852;
 }
-a{
+p{
     color: rgb(226, 212, 212);
 }
 
