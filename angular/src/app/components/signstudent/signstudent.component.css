@@ -15,12 +15,13 @@
       font-size: 40px;
       margin-bottom:5px;
       margin-left:50px;
-      color:white;
+      color:black;
   
       font-family:Arial, Helvetica, sans-serif; 
   }
   .register #login input[type="text"] {
-      border:1px solid rgb(35, 57, 124);
+      border:1px solid #ba6e0a;
+      
       border-radius: 3px;
       width: 350px;
       font-size:20px;
@@ -28,7 +29,7 @@
   
   }
   .register #login input[type="password"] {
-      border:1px solid rgb(35, 57, 124);
+      border:1px solid #ba6e0a;
       border-radius: 3px;
       width: 350px;
       font-size:20px;
@@ -37,26 +38,26 @@
   }
   span{
        margin-top:10px;
-       color:white;
+       color:black;
   }
  
   
   #submit input[type="submit"]{
       
-      color: white;
+      color: black;
       
       height: 50px;
       width: 350px;
       font-weight: solid;
-      background: rgb(173, 45, 99);
+      background-color: #ba6e0a;
       border: 1px solid rgb(59, 110, 34);
       font-size: 23px;
-      color: rgb(255, 255, 255);
+      color: black;
       border-radius:50px;
       }
   
     .right {
-      color:white;
+      color:black;
       margin-left: 40px;
       font-size: 20px;
       
@@ -64,16 +65,16 @@
     .right p{
       font-size: 40px;
       margin-bottom:15px;
-      color: white;
+      color: black;
       
   
       font-family:Arial, Helvetica, sans-serif; 
     }
    p::first-letter{
-  color:rgb(173, 45, 99);
+  color:#ba6e0a;
     }
     .right  input[ type="text"]{
-      border:1px solid rgb(35, 57, 124);
+      border:1px solid #ba6e0a;
       border-radius: 10px;
       width: 350px;
       font-size:20px;
@@ -83,13 +84,13 @@
     }
     .right  input[ type="date"]{
     
-      border:1px solid rgb(35, 57, 124);
+      border:1px solid #ba6e0a;
       border-radius: 10px;
       width: 350px;
       font-size:20px;
    padding:6px;
    margin-top:10px;
-  color:#14ce90;
+  color:#ba6e0a;
   }
     
   
