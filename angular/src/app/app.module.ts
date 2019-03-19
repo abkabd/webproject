@@ -14,6 +14,7 @@ import { SignInComponent } from './components/sign-in/sign-in.component';
 import { SignstudentComponent } from './components/signstudent/signstudent.component';
 import { SigncompanyComponent } from './components/signcompany/signcompany.component';
 import { InternshipComponent } from './components/internship/internship.component';
+import { InternshipListComponent } from './components/internship-list/internship-list.component';
 
 const appRoutes: Routes = [
   {path: '', component: MainComponent},
@@ -39,7 +40,8 @@ const appRoutes: Routes = [
     SignInComponent,
     SignstudentComponent,
     SigncompanyComponent,
-    InternshipComponent
+    InternshipComponent,
+    InternshipListComponent
   ],
   imports: [
     BrowserModule,
