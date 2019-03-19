@@ -23,8 +23,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "themes/sandstone.bootstrap.min.css"
+              "src/styles.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true
