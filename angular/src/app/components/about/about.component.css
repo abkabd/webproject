@@ -1,0 +1,19 @@
+#heading{
+    text-align: center;
+    padding: 30px;
+}
+h1{
+    padding-top: 30px;
+    line-height: 60px;
+}
+#about-us{
+    width: 100%;
+}
+#info{
+    margin-right: 150px;
+    margin-left: 150px;
+    line-height: 40px;
+}
+#team{
+    text-align: center;
+}
