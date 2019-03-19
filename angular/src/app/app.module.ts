@@ -15,6 +15,7 @@ import { SignstudentComponent } from './components/signstudent/signstudent.compo
 import { SigncompanyComponent } from './components/signcompany/signcompany.component';
 import { InternshipComponent } from './components/internship/internship.component';
 import { InternshipListComponent } from './components/internship-list/internship-list.component';
+import { InternshipDivComponent } from './components/internship-div/internship-div.component';
 
 const appRoutes: Routes = [
   {path: '', component: MainComponent},
@@ -23,7 +24,8 @@ const appRoutes: Routes = [
   {path: 'signIn', component: SignInComponent},
   {path: 'signUpStudent', component: SignstudentComponent},
   {path: 'signUpCompany', component: SigncompanyComponent},
-  {path: 'internship', component: InternshipComponent},
+  {path: 'internship-element', component: InternshipComponent},
+  {path: 'internships', component: InternshipListComponent},
   {path: '**', component: NotFoundComponent},
 
 ]
@@ -41,7 +43,8 @@ const appRoutes: Routes = [
     SignstudentComponent,
     SigncompanyComponent,
     InternshipComponent,
-    InternshipListComponent
+    InternshipListComponent,
+    InternshipDivComponent
   ],
   imports: [
     BrowserModule,
