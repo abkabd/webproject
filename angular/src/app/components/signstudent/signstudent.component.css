@@ -9,6 +9,10 @@
  
 
 }
+span{
+  color: #ba6e0a;
+  margin-left: 5px;
+}
 
 .form-signin .form-control {
   position: relative;
