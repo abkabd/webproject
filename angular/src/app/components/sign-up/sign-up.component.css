@@ -2,9 +2,10 @@
   
   
   h1{
-    margin-top:13%;
+    margin-top:0%;
+    padding-top: 13%;
     margin-left:13%;
-    color:white;
+    color:black;
     font-size:60px;
     font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
     
@@ -15,7 +16,7 @@
   
    
   p{
-    color:white;
+    color:black;
     font-size:70px;
     font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
     margin-top:5%;
@@ -26,7 +27,7 @@
   #link a{
       text-decoration: none;
       font-size:50px;
-      color:white;
+      color:black;
       
       transition:1s transform;
       margin-top:5%;
@@ -66,7 +67,7 @@
   #link2 a{
       text-decoration: none;
       font-size:50px;
-      color:white;
+      color:black;
       
       transition:1s transform;
       margin-top:5%;
