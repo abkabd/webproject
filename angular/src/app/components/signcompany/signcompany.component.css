@@ -29,12 +29,25 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+  .form-signin input[type="text"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .form-signin input[type="number"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
   .h3 {
     color: black;
-    padding-left: 70px;
+    padding-left: 90px;
   }
+  .h3::first-letter{
+    color:#ba6e0a;
+      }
   #inputEmail {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   #butt {
     background-color: #ba6e0a;
