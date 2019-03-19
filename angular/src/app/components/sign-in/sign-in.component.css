@@ -6,7 +6,7 @@
   }
   .form-signin .checkbox {
     font-weight: 400;
-    color: black;
+    color: white;
     padding-left: 90px;
   }
   .form-signin .form-control {
@@ -30,9 +30,15 @@
     border-top-right-radius: 0;
   }
   .h3 {
-    color: black;
+    color: white;
     padding-left: 70px;
   }
   #inputEmail {
       margin-bottom: 10px;
   }
+#butt {
+    background-color: #0abab5;
+  }
+#logo {
+    padding: 10px;
+}
