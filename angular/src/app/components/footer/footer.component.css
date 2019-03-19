@@ -12,16 +12,6 @@ footer{
 a{
     color: rgb(226, 212, 212);
 }
-footer{
-    position: absolute;
-    bottom: 0%;
-    height: 40px;
-    text-align: center;
-    z-index: 4;   
-    /* left: 0; */
-    /* width: 100%; */
-    /* min-width: 1300px; */
-}
 
 .main{
     width: 100%;
@@ -44,28 +34,6 @@ div {
     text-align: center;
     vertical-align: middle;
     width: 15%;
-}
-.forum{
-    width: 10%;
-}
-.guideBook{
-    width: 18%;
-}
-.dictionary{
-    width: 12%;
-}
-.logo{
-    width: 19%;
-}
-.home{
-    float: right;
-    width: 10%;
-}
-.home:hover{
-    opacity: 0.7;
-}
-.inp{
-    padding: 10px;
 }
 *{
     font-size: 25px;
@@ -109,11 +77,8 @@ p img{
 .settings select {  
     outline: none;
     background: transparent;
-    /* -webkit-appearance: none;
-    -moz-appearance: none; */
     appearance: none;
     border-radius: 20px;
-    /* margin: 0px; */
     display: block;
     width: 100%;
     padding: 6px 50px 15px 10px;

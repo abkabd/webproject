@@ -9,10 +9,9 @@ html {
 
 .bg {
     background-image: url("src/assets/img/back3.jpg");
-  
+    position: relative;
     height: 100%;
   
-    background-position: center;
-    background-repeat: repeat-y;
+    background-position: unset;
     background-size: cover;
   }
