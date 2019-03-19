@@ -11,13 +11,13 @@ h1{
 }
 
 #grad-hat-img{
-    width: 100px;;
-    height: 100px;
+    widows: 7px;
+    height: 70px;
     clear: both;
     transform: rotate(330deg);
     position: relative;
     left: 65px;
-    margin-bottom: 45px;
+    margin-bottom: 150px;
 }
 
 #basic-info{
