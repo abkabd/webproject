@@ -1,6 +1,137 @@
-
+/* header and footer config general config */
 footer{
-    height: 120px;
+    left: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 1300px;
+    height: auto;
+    display: block;
+    background: rgb(22, 22, 22);
+    background-color: #141852;
+}
+a{
+    color: rgb(226, 212, 212);
+}
+footer{
     position: absolute;
     bottom: 0%;
+    height: 40px;
+    text-align: center;
+    z-index: 4;   
+    /* left: 0; */
+    /* width: 100%; */
+    /* min-width: 1300px; */
+}
+
+.main{
+    width: 100%;
+    position: relative;
+    max-height: 100px;
+}
+
+.additional div{
+    border:none;
+    text-align: center;
+}
+div {
+    position: relative;   
+    border-right: 1px solid rgba(245, 245, 245, 0.719);
+    min-width: 100px;
+    display: inline-block;
+}
+.general {
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    width: 15%;
+}
+.forum{
+    width: 10%;
+}
+.guideBook{
+    width: 18%;
+}
+.dictionary{
+    width: 12%;
+}
+.logo{
+    width: 19%;
+}
+.home{
+    float: right;
+    width: 10%;
+}
+.home:hover{
+    opacity: 0.7;
+}
+.inp{
+    padding: 10px;
+}
+*{
+    font-size: 25px;
+    font-weight: 100;
+    /* color:lightgray; */
+    /* font-family: 'Jura'; */
+}
+p img{
+   padding-right:20px; 
+}
+.t{
+    /* border: 0px solid yellow; */
+    position: relative;
+    min-height: 50px;
+    width: 100%;
+}
+.additional p a{
+    font-size: 20px;
+}
+#info{
+    position: relative;
+    top:-330px;
+    width: 400px;
+    height: 250px;
+    z-index: 3;
+    border: 1px black solid;
+    background-image:url(/assets/back.png);
+    color:rgb(87, 83, 83);
+    font-size: 16px;
+    border-radius: 10px;
+    visibility: hidden;
+    height: 150px;
+}
+.settings {
+    background-color: #050724;
+    z-index: 10;
+    height: 42px;
+    border-radius: 20px;
+    
+  }
+.settings select {  
+    outline: none;
+    background: transparent;
+    /* -webkit-appearance: none;
+    -moz-appearance: none; */
+    appearance: none;
+    border-radius: 20px;
+    /* margin: 0px; */
+    display: block;
+    width: 100%;
+    padding: 6px 50px 15px 10px;
+    height:42px;
+    font-size: 17px;
+    color: rgba(221, 221, 221, 0.781);
+}
+.settings:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    line-height: 38px;
+    content: "∧";
+    color: rgb(209, 207, 212);
+    font-size: 25px;
+    padding-right:6px;
+    border-left: 1px solid rgb(164, 161, 170);
+    z-index: -1;
 }
