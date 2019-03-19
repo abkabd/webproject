@@ -14,6 +14,73 @@ h1{
     margin-left: 150px;
     line-height: 40px;
 }
-#team{
+#team h1{
     text-align: center;
+}
+
+#team {
+    
+}
+
+.member1-pic {
+    width: 150px;
+    height: 150px;
+    float: left;
+    clear: right;
+    border: black solid;
+    border-radius: 100px;
+}
+.member2-pic {
+    width: 150px;
+    height: 150px;
+    float: right;
+    border: black solid;
+    border-radius: 100px;
+}
+.member3-pic {
+    width: 150px;
+    height: 150px;
+    float: left;
+    border: black solid;
+    border-radius: 100px;
+}
+.member4-pic {
+    width: 150px;
+    height: 150px;
+    float: right;
+    border: black solid;
+    border-radius: 100px;
+}
+
+.member{
+    padding: 10px;
+}
+
+#Aybek{
+    position: relative;
+    padding-right: 700px;
+}
+
+#Hafsa{
+    position: relative;
+    clear: left;
+    padding-left: 700px;
+}
+#Alua{
+    position: relative;
+    padding-right: 700px;
+}
+
+#Anelya{
+    position: relative;
+    padding-left: 700px;
+}
+
+.nice-to-meet-you{
+    width: 700px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 70px;
 }
