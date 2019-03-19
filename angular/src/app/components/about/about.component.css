@@ -19,14 +19,16 @@ h1{
 }
 
 #team {
-    
+    /* width: 900px; */
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .member1-pic {
     width: 150px;
     height: 150px;
     float: left;
-    clear: right;
     border: black solid;
     border-radius: 100px;
 }
@@ -34,6 +36,7 @@ h1{
     width: 150px;
     height: 150px;
     float: right;
+    clear: both;
     border: black solid;
     border-radius: 100px;
 }
@@ -53,27 +56,27 @@ h1{
 }
 
 .member{
-    padding: 10px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 #Aybek{
     position: relative;
-    padding-right: 700px;
+    margin-right: 300px;
 }
 
 #Hafsa{
     position: relative;
-    clear: left;
-    padding-left: 700px;
+    margin-left: 300px;
 }
 #Alua{
     position: relative;
-    padding-right: 700px;
+    margin-right: 300px;
 }
 
 #Anelya{
     position: relative;
-    padding-left: 700px;
+    margin-left: 300px;
 }
 
 .nice-to-meet-you{
