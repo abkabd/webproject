@@ -1,13 +1,13 @@
-*{
+/* *{
     background-color: orange;
 
-}
+} */
 
 h1{
     font-family: 'Srisakdi', cursive;
     font-weight: bold;
     font-size: 80px;
-    text-align: center;
+    text-align: center;    
 }
 
 #grad-hat-img{
@@ -45,7 +45,8 @@ h3{
 #scholarship-img{
     width: 700px;
     float: right;
-    margin-right: 100px;
+    margin-right: 150px;
+    padding-bottom: 70px;
 }
 
 #description{
