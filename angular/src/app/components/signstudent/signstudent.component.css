@@ -1,3 +1,95 @@
-p{
-    color:red;
-}
+
+
+  .register{
+  
+      text-align: left;
+     
+      
+      margin-left: 10%;
+      margin-right:13%;
+      float: left;
+      margin-bottom: 100%;
+    
+  }
+  .register p{
+      font-size: 40px;
+      margin-bottom:5px;
+      margin-left:50px;
+      color:white;
+  
+      font-family:Arial, Helvetica, sans-serif; 
+  }
+  .register #login input[type="text"] {
+      border:1px solid rgb(35, 57, 124);
+      border-radius: 3px;
+      width: 350px;
+      font-size:20px;
+   padding:6px;
+  
+  }
+  .register #login input[type="password"] {
+      border:1px solid rgb(35, 57, 124);
+      border-radius: 3px;
+      width: 350px;
+      font-size:20px;
+   padding:6px;
+   margin-top:10px;
+  }
+  span{
+       margin-top:10px;
+       color:white;
+  }
+ 
+  
+  #submit input[type="submit"]{
+      
+      color: white;
+      
+      height: 50px;
+      width: 350px;
+      font-weight: solid;
+      background: rgb(173, 45, 99);
+      border: 1px solid rgb(59, 110, 34);
+      font-size: 23px;
+      color: rgb(255, 255, 255);
+      border-radius:50px;
+      }
+  
+    .right {
+      color:white;
+      margin-left: 40px;
+      font-size: 20px;
+      
+    }  
+    .right p{
+      font-size: 40px;
+      margin-bottom:15px;
+      color: white;
+      
+  
+      font-family:Arial, Helvetica, sans-serif; 
+    }
+   p::first-letter{
+  color:rgb(173, 45, 99);
+    }
+    .right  input[ type="text"]{
+      border:1px solid rgb(35, 57, 124);
+      border-radius: 10px;
+      width: 350px;
+      font-size:20px;
+   padding:6px;
+   margin-top:10px;
+  
+    }
+    .right  input[ type="date"]{
+    
+      border:1px solid rgb(35, 57, 124);
+      border-radius: 10px;
+      width: 350px;
+      font-size:20px;
+   padding:6px;
+   margin-top:10px;
+  color:#14ce90;
+  }
+    
+  
