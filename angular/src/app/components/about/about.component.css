@@ -5,6 +5,7 @@
 h1{
     padding-top: 30px;
     line-height: 60px;
+    font-family: 'Quicksand', sans-serif;
 }
 #about-us{
     width: 100%;
@@ -13,9 +14,12 @@ h1{
     margin-right: 150px;
     margin-left: 150px;
     line-height: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
 }
 #team h1{
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #team {
@@ -23,6 +27,9 @@ h1{
     text-align: center;
     margin-right: 200px;
     margin-left: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
 }
 
 .member1-pic {
@@ -40,7 +47,7 @@ h1{
     border: black solid;
     border-radius: 100px;
 }
-.member3-pic {
+/* .member3-pic {
     width: 150px;
     height: 150px;
     float: left;
@@ -53,7 +60,7 @@ h1{
     float: right;
     border: black solid;
     border-radius: 100px;
-}
+} */
 
 .member{
     padding-top: 70px;

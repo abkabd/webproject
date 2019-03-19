@@ -1,10 +1,11 @@
 #welcome{
     /* color:rgb(237, 175, 14); */
-    color: orange;
+    /* color: orange; */
     text-align: center;
     padding: 50px;
     opacity: 100%;
     font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
 }
 
 .gif{
